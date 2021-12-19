@@ -13,7 +13,10 @@
 
 body {
   font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
 }
 
 .list {
@@ -35,7 +38,6 @@ body {
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .header-link:hover {
@@ -50,7 +52,6 @@ body {
 .header-link,
 .header-contact {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -65,7 +66,6 @@ body {
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .footer-contact:focus {
@@ -74,9 +74,7 @@ body {
 
 .footer-contact {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   background-color: var(--accent-background-color);
   color: rgba(255, 255, 255, 0.6);
 }
@@ -125,16 +123,12 @@ body {
 /* customizing styles about block */
 
 .about-second-title {
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .about-after-title {
-  font-size: 14px;
   line-height: 1.5;
-  letter-spacing: 0.03em;
   color: var(--paragraph-color);
 }
 
@@ -155,7 +149,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .activity-item {
@@ -168,7 +161,6 @@ body {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-second-title {
@@ -176,14 +168,12 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-after-title {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--paragraph-color);
 }
 
@@ -211,7 +201,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--background-btn-color);
   border-width: 0px;
@@ -235,6 +224,5 @@ body {
 .portfolio-after-title {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--paragraph-color);
 }
