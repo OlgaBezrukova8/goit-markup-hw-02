@@ -2,13 +2,13 @@
 
 :root {
   --primary-text-color: #212121;
-  --title-text-color: #212121;
   --accent-color: #2196f3;
   --paragraph-color: #757575;
   --primary-background-color: #e5e5e5;
   --primary-white-color: #ffffff;
   --accent-background-color: #2f303a;
   --background-btn-color: #f5f4fa;
+  --background-accent-btn: #188ce8;
 }
 
 body {
@@ -117,6 +117,11 @@ body {
   cursor: pointer;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--background-accent-btn);
+}
+
 /* customizing styles about block */
 
 .about-second-title {
@@ -151,6 +156,10 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.activity-item {
+  display: inline;
 }
 
 /* customizing styles team block */
